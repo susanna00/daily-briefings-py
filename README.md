@@ -73,6 +73,13 @@ python -m app.daily_briefing
 APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_briefing
 ```
 
+## Web- app
+
+```sh 
+export FLASK_APP=web_app
+flask run
+```
+
 
 ## Testing
 
