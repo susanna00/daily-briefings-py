@@ -46,3 +46,4 @@ def weather_forecast():
     else:
         #flash(f"Geography Error. Please try again!", "danger")
         return redirect("/weather/form")
+        
